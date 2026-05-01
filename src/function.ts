@@ -14,3 +14,8 @@ const poorUser ={
 
 }
 poorUser.addBalance(200)
+
+// callback funtion
+
+const arr:num[] = [1,2,3];
+const sqrArry = arr.map((elem:number): number =>elem*elem);
