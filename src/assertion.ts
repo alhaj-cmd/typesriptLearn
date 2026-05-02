@@ -5,7 +5,13 @@ let anything: any;
 
 const kgtogram = (input: string|number)=> {
 
-    
+    if(typeof input ==="number"){
+        return input * 1000;
+    }
+    else if(typeof input === 'string') {
+        const [value] = input.split(" ")
+        return `converted output is: ${Number(input)*1000}`
+    }
 }
 
 
